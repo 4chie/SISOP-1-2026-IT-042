@@ -1,0 +1,9 @@
+LAPORAN KEUANGAN KOST SLEBEW
+Tanggal: 2026-03-25 21:35:48
+==============================================
+Total pemasukan (Aktif) : Rp0
+Total tunggakan         : Rp600000
+Jumlah kamar terisi     : 1
+----------------------------------------------
+Daftar penghuni menunggak:
+  Mas Rusdi (Kamar 2) - Rp600000
