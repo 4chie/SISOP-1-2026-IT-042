@@ -1,0 +1,77 @@
+{
+"type": "FeatureCollection",
+"name": "gunung_kawi_spatial_nodes",
+"dataset_info": {
+"crs": "EPSG:4326",
+"datum": "WGS84",
+"region": "Gunung Kawi, East Java, Indonesia",
+"edge_distance_m": 2000,
+"generated_at": "2026-03-13T10:02:00Z"
+},
+"features": [
+{
+"type": "Feature",
+"id": "node_001",
+"properties": {
+"site_name": "Titik Berak Paman Mas Mba",
+"node_class": "primary_reference_point",
+"latitude": -7.920000,
+"longitude": 112.450000,
+"elevation_m": 254,
+"status": "active"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [112.450000, -7.920000]
+}
+},
+{
+"type": "Feature",
+"id": "node_002",
+"properties": {
+"site_name": "Basecamp Mas Fuad",
+"node_class": "field_operations_base",
+"latitude": -7.920000,
+"longitude": 112.468100,
+"elevation_m": 261,
+"status": "active"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [112.468100, -7.920000]
+}
+},
+{
+"type": "Feature",
+"id": "node_003",
+"properties": {
+"site_name": "Gerbang Dimensi Keputih",
+"node_class": "anomaly_site",
+"latitude": -7.937960,
+"longitude": 112.468100,
+"elevation_m": 248,
+"status": "restricted"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [112.468100, -7.937960]
+}
+},
+{
+"type": "Feature",
+"id": "node_004",
+"properties": {
+"site_name": "Tembok Ratapan Keputih",
+"node_class": "boundary_marker",
+"latitude": -7.937960,
+"longitude": 112.450000,
+"elevation_m": 246,
+"status": "inactive"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [112.450000, -7.937960]
+}
+}
+]
+}

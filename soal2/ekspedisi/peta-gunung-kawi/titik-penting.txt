@@ -1,0 +1,4 @@
+node_001, Titik Berak Paman Mas Mba, -7.920000, 112.450000
+node_002, Basecamp Mas Fuad, -7.920000, 112.468100
+node_003, Gerbang Dimensi Keputih, -7.937960, 112.468100
+node_004, Tembok Ratapan Keputih, -7.937960, 112.450000
