@@ -211,22 +211,35 @@ __  _____  ____ ______    ____  _     _____ ____  _______        __
 ```
 
 **Daftar Penghuni:**
+
 ```
 ==============================================
        DAFTAR PENGHUNI KOST SLEBEW
 ==============================================
-No  | Nama           | Kamar  | Harga Sewa    | Status
+No  | Nama           | Kamar  | Harga Sewa     | Status
 ------------------------------------------------------
-1   | Andi Wijaya    | 101    | Rp1.500.000   | Aktif
+1   | Mas Rusdi      | 2      | Rp600000       | Menunggak
 ------------------------------------------------------
-2   | Budi Santoso   | 102    | Rp1.200.000   | Menunggak
+2   | acha           | 12     | Rp500000       | Aktif
 ------------------------------------------------------
 
 Total: 2 penghuni | Aktif: 1 | Menunggak: 1
 ==============================================
 ```
 
-**Log Tagihan (`tagihan.log`):**
+**Laporan Keuangan:**
+
 ```
-[2026-03-29 07:00:01] TAGIHAN: Budi Santoso (Kamar 102) - Menunggak Rp1200000
+Total pemasukan (Aktif)  : Rp500000
+Total tunggakan          : Rp600000
+Jumlah kamar terisi      : 2
+----------------------------------------------
+Daftar penghuni menunggak:
+  Mas Rusdi (Kamar 2) - Rp600000
+```
+
+**Log Tagihan (`tagihan.log`):**
+
+```
+[2026-03-29 07:00:01] TAGIHAN: Mas Rusdi (Kamar 2) - Menunggak Rp600000
 ```
