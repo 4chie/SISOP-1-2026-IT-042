@@ -196,10 +196,10 @@ Jalankan dari dalam folder `peta-gunung-kawi/`:
 
 ```bash
 # Langkah 1: Parse koordinat dari JSON
-bash parserkoordinat.sh
+./parserkoordinat.sh
 
 # Langkah 2: Temukan lokasi pusaka
-bash nemupusaka.sh
+./nemupusaka.sh
 ```
 
 ### Output
@@ -693,10 +693,10 @@ done
 
 ```bash
 # Jalankan program utama
-bash kost_slebew.sh
+./kost_slebew.sh
 
 # (Otomatis oleh cron) Cek tagihan
-bash kost_slebew.sh --check-tagihan
+./kost_slebew.sh --check-tagihan
 ```
 
 ### Output
@@ -879,10 +879,10 @@ Script utama `kost_slebew.sh` memiliki 6 fitur utama:
 
 ```bash
 # Jalankan program utama
-bash kost_slebew.sh
+./kost_slebew.sh
 
 # (Otomatis oleh cron) Cek tagihan
-bash kost_slebew.sh --check-tagihan
+./kost_slebew.sh --check-tagihan
 ```
 
 ### Output
