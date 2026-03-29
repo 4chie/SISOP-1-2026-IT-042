@@ -6,6 +6,7 @@ BEGIN {
     NR==1 {next} # skip header
 {
 	# hitung penumpang (a)
+	{ gsub(/\r/, "", $4) }
 	count_passenger++
 
 	# jumlah  gerbong (b)
