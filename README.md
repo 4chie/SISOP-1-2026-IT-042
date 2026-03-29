@@ -344,7 +344,7 @@ if [ "$1" == "--check-tagihan" ]; then
     mkdir -p log
     timestamp=$(date '+%Y-%m-%d %H:%M:%S')
     found=0
-    while IFS=',' read -r nama kamar harga status rest; do
+while IFS=',' read -r nama kamar harga tanggal status; do
         [ "$nama" == "nama" ] && continue
         if [ "$status" == "Menunggak" ]; then
             echo "[$timestamp] TAGIHAN: $nama (Kamar $kamar) - Menunggak Rp$harga" >> "$LOG"
